@@ -18,7 +18,7 @@
 <page-query>
   query {
     github {
-      repository(owner: "codegram", name: "jamstack-cfp") {
+      repository(owner: "bg242004", name: "jamstack-cfp") {
         pullRequests(last: 100, labels: "submission", states: OPEN) {
           edges {
             node {
